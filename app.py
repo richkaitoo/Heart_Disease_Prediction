@@ -9,11 +9,11 @@ from sklearn.metrics import roc_curve, auc
 # Load model and data
 @st.cache_resource
 def load_model():
-    return joblib.load('knn_model.pkl')
+    return joblib.load('model/knn_model.pkl')
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('heart.csv')
+    return pd.read_csv('data/heart.csv')
 
 # Initialize
 model = load_model()

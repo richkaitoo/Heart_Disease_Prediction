@@ -1,0 +1,2 @@
+accuracy,sensitivity,specificity,confusion_matrix,roc_auc
+0.9629629629629629,0.9543726235741445,0.972,"[[243, 7], [12, 251]]",0.9631863117870723
